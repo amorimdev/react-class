@@ -1,12 +1,37 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// import {
+//   ClassComponent,
+//   FunctionalComponent,
+//   FunctionalNamedComponent,
+//   StateClassComponent,
+//   StateHookComponent,
+//   LifecycleClassComponent,
+//   LifecycleHookComponent
+// } from "./components";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// import ClassComponent from './components/20191202/ClassComponent';
+// import FunctionalComponent from './components/20191202/FunctionalComponent';
+// import FunctionalNamedComponent from './components/20191202/FunctionalNamedComponent';
+// import StateClassComponent from './components/20191209/StateClassComponent';
+// import StateHookComponent from './components/20191209/StateHookComponent';
+// import LifecycleClassComponent from './components/20191210/LifecycleClassComponent';
+// import LifecycleHookComponent from './components/20191210/LifecycleHookComponent';
+
+function App() {
+  return (
+    <div>
+      {/* <ClassComponent /> */}
+      {/* <FunctionalComponent /> */}
+      {/* <FunctionalNamedComponent /> */}
+      {/* <StateClassComponent /> */}
+      {/* <StateHookComponent /> */}
+      {/* <LifecycleClassComponent /> */}
+      {/* <LifecycleHookComponent /> */}
+    </div>
+  );
+}
+
+const element = document.getElementById("root");
+ReactDOM.render(<App />, element);

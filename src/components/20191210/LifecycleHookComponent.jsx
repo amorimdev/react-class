@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-export default () => {
+export default props => {
   const [date, setDate] = useState(new Date());
 
-  function tick() {
+  const tick = () => {
     setDate(new Date());
-  }
+  };
 
   useEffect(() => {
     const timerID = setInterval(() => tick(), 1000);
@@ -13,7 +13,7 @@ export default () => {
     return () => {
       clearInterval(timerID);
     };
-  });
+  }, [props]);
 
   return (
     <div>

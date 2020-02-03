@@ -18,7 +18,9 @@ import ReactDOM from "react-dom";
 //   FormComponent,
 //   FragmentsHOCsAndRenderPropsComponent,
 //   ReferenceComponent,
-//   ForwardingReferenceComponent
+//   ForwardingReferenceComponent,
+//   TodoReactReduxComponent,
+//   ReactReduxComponent
 // } from "./components";
 
 // import ClassComponent from './components/20191202/ClassComponent';
@@ -38,6 +40,8 @@ import ReactDOM from "react-dom";
 // import FragmentsHOCsAndRenderPropsComponent from "./components/20191227/FragmentsHOCsAndRenderPropsComponent";
 // import ReferenceComponent from "./components/20200103/ReferenceComponent";
 // import ForwardingReferenceComponent from "./components/20200103/ForwardingReferenceComponent";
+// import TodoReactReduxComponent from "./components/20200203/TodoReactReduxComponent";
+// import ReactReduxComponent from './components/20200203/ReactReduxComponent';
 
 function App() {
   return (
@@ -49,16 +53,18 @@ function App() {
       {/* <StateHookComponent /> */}
       {/* <LifecycleClassComponent /> */}
       {/* <LifecycleHookComponent /> */}
-      {/* {/* <ConditionalClassComponent show={true} /> */} */}
+      {/* <ConditionalClassComponent show={true} /> */}
       {/* <ListClassComponent /> */}
       {/* <NumberListComponent /> */}
       {/* <CompositionComponent /> */}
       {/* <LiftingStateUpComponent /> */}
       {/* <RouterComponent /> */}
       {/* <FormComponent /> */}
-      {/* {/* <FragmentsHOCsAndRenderPropsComponent /> */} */}
+      {/* <FragmentsHOCsAndRenderPropsComponent /> */}
       {/* <ReferenceComponent /> */}
       {/* <ForwardingReferenceComponent /> */}
+      {/* <TodoReactReduxComponent /> */}
+      {/* <ReactReduxComponent /> */}
     </div>
   );
 }

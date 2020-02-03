@@ -24,6 +24,9 @@ import FragmentsHOCsAndRenderProps from "./20191227/FragmentsHOCsAndRenderProps"
 import ReferenceComponent from "./20200103/ReferenceComponent";
 import ForwardingReferenceComponent from "./20200103/ForwardingReferenceComponent";
 
+import TodoReactReduxComponent from "./20200203/TodoReactReduxComponent";
+import ReactReduxComponent from "./20200203/ReactReduxComponent";
+
 export {
   ClassComponent,
   FunctionalComponent,
@@ -41,5 +44,7 @@ export {
   FormComponent,
   FragmentsHOCsAndRenderProps,
   ReferenceComponent,
-  ForwardingReferenceComponent
+  ForwardingReferenceComponent,
+  TodoReactReduxComponent,
+  ReactReduxComponent
 };
